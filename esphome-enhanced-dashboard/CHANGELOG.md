@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.3 — 2026-04-22
+
+- Fix fetch / WebSocket URLs when running behind Home Assistant ingress (requests like Create Device and device actions were bypassing the ingress proxy and hitting HA's root, returning 404)
+
 ## 0.2.2 — 2026-04-19
 
 - Rebuild on ESPHome 2026.4.1
