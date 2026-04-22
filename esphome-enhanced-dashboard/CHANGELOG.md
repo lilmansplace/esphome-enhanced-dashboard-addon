@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.2 — 2026-04-19
+
+- Rebuild on ESPHome 2026.4.1
+
 ## 0.2.1 — 2026-04-19
 
 - Add BT Proxy column showing ✓ for devices with `bluetooth_proxy` configured
