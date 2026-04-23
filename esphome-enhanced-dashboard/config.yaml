@@ -1,7 +1,7 @@
 name: ESPHome Enhanced Dashboard
 panel_title: ESPHome Enhanced
 description: Modern ESPHome dashboard with search, tags, archive, side panel, batch actions
-version: 0.2.5
+version: 0.2.6
 slug: esphome_enhanced_dashboard
 url: https://github.com/heffneil/esphome-enhanced-dashboard
 arch:
@@ -31,6 +31,7 @@ schema:
   status_use_ping: bool?
   streamer_mode: bool?
   leave_front_door_open: bool?
+  default_compile_process_limit: int(1,)?
   ssl: bool?
   certfile: str?
   keyfile: str?

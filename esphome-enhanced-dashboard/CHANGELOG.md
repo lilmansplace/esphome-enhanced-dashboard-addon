@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.6 — 2026-04-23
+
+- Expose `default_compile_process_limit` add-on option (matches the stock ESPHome add-on). Set the number of devices that can compile in parallel from the add-on Configuration tab.
+
 ## 0.2.5 — 2026-04-23
 
 - Column show/hide menu now covers every column: IP Address, Platform, BT Proxy, ESPHome Version, Comment, Tags, Config File (Status and Name are always visible)
