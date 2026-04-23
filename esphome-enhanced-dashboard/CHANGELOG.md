@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.4 — 2026-04-23
+
+- Fix Classic dashboard link 404 under HA ingress — the link was using an absolute path that bypassed the ingress proxy
+
 ## 0.2.3 — 2026-04-22
 
 - Fix fetch / WebSocket URLs when running behind Home Assistant ingress (requests like Create Device and device actions were bypassing the ingress proxy and hitting HA's root, returning 404)
