@@ -7,7 +7,7 @@ url: https://github.com/heffneil/esphome-enhanced-dashboard
 arch:
   - amd64
   - aarch64
-image: ghcr.io/heffneil/{arch}-esphome-enhanced-dashboard
+image: ghcr.io/lilmansplace/{arch}-esphome-enhanced-dashboard
 
 hassio_api: true
 auth_api: true

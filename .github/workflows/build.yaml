@@ -14,7 +14,7 @@ on:
 env:
   ADDON_DIR: esphome-enhanced-dashboard
   REGISTRY: ghcr.io
-  OWNER: heffneil
+  OWNER: ${{ github.repository_owner }}
 
 jobs:
   build:
